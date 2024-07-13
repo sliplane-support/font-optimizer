@@ -1,12 +1,14 @@
 # Font Optimizer
 
-Convert ttf fonts to woff2 and remove all glyphs that you don't need. You can 10x downsize ttf font files this way. The repo contains
+Converts ttf fonts to woff2 and removes glyphs that are not needed. You can 10x downsize ttf font files this way. The repo contains
 
 - a bash script "font-optimizer.sh" to optimize fonts locally
 - Basic code for a Python web app to run the optimizer with a GUI
 - Dockerfile to simply deploy the code
 
 ## Using the Bash script
+
+Make sure you installed Python 3.12 on your system as well as the python libraries brotli 1.1.0 and fonttools 4.53.1
 
 The script file needs execute permissions:
 
